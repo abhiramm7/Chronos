@@ -1,0 +1,42 @@
+[project]
+name = "chronos"
+version = "0.0.0"
+description = "A Python package for time series preprocessing, forecasting, classification, and analysis"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Chronos Contributors" }
+]
+requires-python = ">=3.14"
+keywords = ["timeseries", "time-series", "forecasting", "preprocessing", "analysis", "classification"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/chronos"
+Repository = "https://github.com/yourusername/chronos"
+Issues = "https://github.com/yourusername/chronos/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
