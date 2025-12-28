@@ -70,7 +70,7 @@ pytest -v
 
 Run specific test file:
 ```bash
-pytest test_core.py
+pytest test_sequences.py
 ```
 
 ## Code Formatting

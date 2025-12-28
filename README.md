@@ -2,7 +2,19 @@
 
 **Version: 0.0.0**
 
-A Python package for time series preprocessing, forecasting, classification, and analysis.
+This is yet another time series analysis library in python. 
+This library is implemented in functional programming style to facilitate its use in data pipelines and daisy-chaining it with other libraries.
+
+This library is organized based on the steps involved in time series forecasting:
+1. Filtering noisy data
+2. Feature engineering
+3. Normalization
+4. Sequencing
+5. Model building
+6. Model evaluation
+7. Visualization
+
+I am still figuring out what to name this library, so any suggestions are welcome! :)
 
 ## Installation
 
@@ -81,18 +93,3 @@ black .
 ## License
 
 MIT License
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Support
-
-For issues and questions, please open an issue on GitHub.
-

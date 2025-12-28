@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pytest
-from core import shingle_timeseries, generate_target_timeseries, check_data_frequency
+from sequences import shingle_timeseries, generate_target_timeseries, check_data_frequency
 
 
 def generate_test_data(start: str, end: str, freq: str) -> pd.DataFrame:
