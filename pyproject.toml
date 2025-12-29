@@ -5,7 +5,7 @@ description = "A Python package for time series preprocessing, forecasting, clas
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "Chronos Contributors" }
+    { name = "Abhiram Mullapudi" }
 ]
 requires-python = ">=3.14"
 keywords = ["timeseries", "time-series", "forecasting", "preprocessing", "analysis", "classification"]
@@ -23,6 +23,7 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.0",
     "pandas>=2.3.3",
+    "requests>=2.32.5",
 ]
 
 [project.urls]
@@ -34,7 +35,11 @@ Issues = "https://github.com/yourusername/chronos/issues"
 dev = [
     "pytest>=7.0.0",
     "black>=23.0.0",
+    "jupyterlab>=4.0.0",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
 
 [build-system]
 requires = ["hatchling"]
